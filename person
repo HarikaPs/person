@@ -1,0 +1,59 @@
+export const person = {
+    "modelId": "Persons",
+    "datasource_ref": "PRIMARY_READ_DB",
+    "tableName": "Persons",
+    "collectionName": "reference-data",
+    "primaryKey": "PersonID",
+    "properties": [
+        {
+            "columnName": "PersonID",
+            "primary_key": true,
+            "type": "int",
+            "config": {
+                "searchable": false,
+                "editable": false,
+                "readable": false
+            }
+        },
+        {
+            "columnName": "LastName",
+            "primary_key": false,
+            "type": "varchar(255)",
+            "config": {
+                "searchable": false,
+                "editable": false,
+                "readable": false
+            }
+        },
+        {
+            "columnName": "FirstName",
+            "primary_key": false,
+            "type": "varchar(255)",
+            "config": {
+                "searchable": false,
+                "editable": false,
+                "readable": false
+            }
+        },
+        {
+            "columnName": "Address",
+            "primary_key": false,
+            "type": "varchar(255)",
+            "config": {
+                "searchable": false,
+                "editable": false,
+                "readable": false
+            }
+        },
+        {
+            "columnName": "City",
+            "primary_key": false,
+            "type": "varchar(255)",
+            "config": {
+                "searchable": false,
+                "editable": false,
+                "readable": false
+            }
+        }
+    ]
+}
